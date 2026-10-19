@@ -1,0 +1,1684 @@
+{
+
+  "test": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 1,
+    "manual_cmp" : 1,
+
+    "state": "mm_test",
+    "versions": ["running", "batched_1e4", "batched_1e5", "batched_1e6", "batched_1e7"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 100,
+    "sample_factors": [1.0, 0.001, 0.01, 0.1, 1.0],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 4,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1, -1, -1, -1],
+    "use_simds": [1, 1, 1, 1, 1],
+    "var_offset": 2500,
+
+    "data_in_dir": "data",
+    "hw": "test_HW",
+    "use_perf": 0,
+    "plot_scripts": []
+  },   
+
+  "werner_vsc": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 1,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.95_large",
+    "versions": ["running_"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 100,
+    "sample_factors": [0.00166667],
+    "PT": 1,
+
+    "min_qb": 5,
+    "max_qb": 5,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [5, 5, 5],
+    "use_simds": [1, 1, 1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },   
+
+  "werner_vsc_job": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.95_large",
+    "versions": ["running", "batched_1e4", "batched_1e5", "batched_1e6", "batched_1e7", "batched_1e8", "batched_6e9"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 500,
+    "sample_factors": [1, 0.0000166667, 0.000166667, 0.00166667, 0.0166667, 0.166667, 1],
+    "PT": 1,
+
+    "min_qb": 10,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1, -1, -1, -1, -1, -1],
+    "use_simds": [1, 1, 1, 1, 1, 1, 1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },  
+
+  "werner_vsc_job_8": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.95_large",
+    "versions": ["running", "batched_1e4", "batched_1e5", "batched_1e6", "batched_1e7", "batched_1e8", "batched_6e9"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 500,
+    "sample_factors": [1, 0.0000166667, 0.000166667, 0.00166667, 0.0166667, 0.166667, 1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1, -1, -1, -1, -1, -1],
+    "use_simds": [1, 1, 1, 1, 1, 1, 1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },  
+
+  "mm_vsc_job_r1": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 80,
+    "sample_factors": [0.01],
+    "PT": 0,
+
+    "min_qb": 12,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 400,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },    
+
+  "mm_vsc_job_r2": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 80,
+    "sample_factors": [0.01],
+    "PT": 0,
+
+    "min_qb": 12,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 400,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },    
+
+  "mm_vsc_job_r4": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 80,
+    "sample_factors": [0.01],
+    "PT": 0,
+
+    "min_qb": 12,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 400,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },    
+
+  "mm_vsc_job_r8": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 80,
+    "sample_factors": [0.01],
+    "PT": 0,
+
+    "min_qb": 12,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 400,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },    
+
+  "mm_vsc_job_r16": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 80,
+    "sample_factors": [0.01],
+    "PT": 0,
+
+    "min_qb": 12,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 400,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },    
+
+  "parSU_vsc": {
+    "run_exp": 0,
+    "rm_old_exp" : 0,
+    "single_plots" : 1,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_par"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,
+    "sample_factors": [1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 4,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },   
+
+  "simdSU_vsc": {
+    "run_exp": 0,
+    "rm_old_exp" : 0,
+    "single_plots" : 1,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_vec"],
+    "mode": "bench",
+
+    "num_runs": 5,
+    "num_data_points": 0,
+    "sample_factors": [0.1, 0.1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 7,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": ["cmp.sh"]
+  },   
+
+  "mm_vsc": {
+    "run_exp":1,
+    "rm_old_exp" : 0,
+    "single_plots" : 1,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_9"],
+    "mode": "bench",
+
+    "num_runs": 3,
+    "num_data_points": 0,
+    "sample_factors": [0.005],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 9,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 100,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },  
+
+  "mm_vsc_job": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_simd"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [1, 1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },  
+
+  "mm_vsc_job_batched": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 100,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },  
+
+  "mm_vsc_job_12": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_simd"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [0.005, 0.005],
+    "PT": 0,
+
+    "min_qb": 9,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  }, 
+
+  "mm_vsc_job_12_batched": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [0.005],
+    "PT": 0,
+
+    "min_qb": 9,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 100,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  }, 
+
+  "mm_zen4_job": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_simd"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [1, 1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },  
+
+  "mm_zen4_job_11": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_simd"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [0.005],
+    "PT": 0,
+
+    "min_qb": 9,
+    "max_qb": 11,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 100,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  }, 
+
+  "mm_zen4_job_12": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_simd"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [0.005, 0.005],
+    "PT": 0,
+
+    "min_qb": 12,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  }, 
+
+  "mm_zen5_job": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_simd"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [1, 1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/home/mgruber/data/experiments",
+    "hw": "9255",
+    "plot_scripts": []
+  },  
+
+  "mm_zen5_job_11": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_simd"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [0.005, 0.005],
+    "PT": 0,
+
+    "min_qb": 9,
+    "max_qb": 11,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/home/mgruber/data/experiments",
+    "hw": "9255",
+    "plot_scripts": []
+  }, 
+
+  "mm_zen5_job_12": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_simd"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 0,
+    "sample_factors": [0.005, 0.005],
+    "PT": 0,
+
+    "min_qb": 12,
+    "max_qb": 12,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/home/mgruber/data/experiments",
+    "hw": "9255",
+    "plot_scripts": []
+  }, 
+
+  "simdSU": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 1,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_vec"],
+    "mode": "bench",
+
+    "num_runs": 5,
+    "num_data_points": 0,
+    "sample_factors": [0.0909091, 0.0909091],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 7,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": ["cmp.sh"]
+  },   
+
+  "mm": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 1,
+
+    "state": "mm",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 5,
+    "num_data_points": 0,
+    "sample_factors": [0.04545455],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 100,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": ["cmp.sh"]
+  },
+
+  "simdSU_hpcgpu3": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 1,
+    "manual_cmp" : 0,
+
+    "state": "mm",
+    "versions": ["running_scalar", "running_vec"],
+    "mode": "bench",
+
+    "num_runs": 5,
+    "num_data_points": 0,
+    "sample_factors": [0.0909091, 0.0909091],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 7,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1],
+    "use_simds": [0, 1],
+    "var_offset": 100,
+
+    "data_in_dir": "/home/mgruber/data/experiments",
+    "hw": "9255",
+    "plot_scripts": ["cmp.sh"]
+  },   
+
+  "mm_hpcgpu3": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,
+    "single_plots" : 1,
+
+    "state": "mm",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 5,
+    "num_data_points": 0,
+    "sample_factors": [0.04545455],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 100,
+
+    "data_in_dir": "/home/mgruber/data/experiments",
+    "hw": "9255",
+    "plot_scripts": ["cmp.sh"]
+  },
+
+  "werner95": {
+    "run_exp":1,
+    "rm_old_exp" : 0,
+    "single_plots" : 1,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.95",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 120,
+    "sample_factors": [0.01],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 4,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  }, 
+  
+  "rank2": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 1,
+    "run_QFI" : 1,
+    "run_julia" : 0,
+    "manual_cmp" : 0,
+
+    "state": "rank2",
+    "versions": ["running", "batched_1e1", "batched_1e2", "batched_1e3", "batched_1e4", "batched_1e5", "batched_1e6", "batched_1e7"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 200,    
+    "sample_factors": [0.3, 0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 0.3],
+    "PT": 0,
+
+    "min_qb": 3,
+    "max_qb": 8,
+    "order": 3,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1, -1, -1, -1, -1, -1, -1],
+    "use_simds": [1, 1, 1, 1, 1, 1, 1, 1],
+    "var_offset": 1000,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "rank4": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 1,
+    "run_QFI" : 1,
+    "run_julia" : 0,
+    "manual_cmp" : 0,
+
+    "state": "rank4",
+    "versions": ["running", "batched_1e1", "batched_1e2", "batched_1e3", "batched_1e4", "batched_1e5", "batched_1e6", "batched_1e7"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 200,    
+    "sample_factors": [0.3, 0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 0.3],
+    "PT": 0,
+
+    "min_qb": 3,
+    "max_qb": 8,
+    "order": 10,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1, -1, -1, -1, -1, -1, -1],
+    "use_simds": [1, 1, 1, 1, 1, 1, 1, 1],
+    "var_offset": 1000,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "rank6": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 1,
+    "run_QFI" : 1,
+    "run_julia" : 0,
+    "manual_cmp" : 0,
+
+    "state": "rank6",
+    "versions": ["running", "batched_1e1", "batched_1e2", "batched_1e3", "batched_1e4", "batched_1e5", "batched_1e6", "batched_1e7"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 200,    
+    "sample_factors": [0.3, 0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 0.3],
+    "PT": 0,
+
+    "min_qb": 3,
+    "max_qb": 8,
+    "order": 21,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1, -1, -1, -1, -1, -1, -1],
+    "use_simds": [1, 1, 1, 1, 1, 1, 1, 1],
+    "var_offset": 1000,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "werner": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 1,
+    "run_julia" : 0,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.9",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 150,    
+    "sample_factors": [0.1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 4,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": ["cmp.sh"]
+  },
+
+  "werner6": {
+    "run_exp": 1,
+    "rm_old_exp" : 0,    
+    "single_plots" : 1,
+    "run_julia" : 0,
+    "manual_cmp" : 1,
+
+    "state": "werner_0.6",
+    "versions": ["running", "batched_0.0001", "batched_0.001", "batched_0.01", "batched_0.1", "batched_1"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 120,    
+    "sample_factors": [1, 0.0001, 0.001, 0.01, 0.1, 1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 32,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1, -1, -1, -1, -1, -1],
+    "use_simds": [1, 1, 1, 1, 1, 1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },  
+
+  "julia_test": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 4,
+    "max_qb": 4,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "julia_1e6_8": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e6",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "julia_1e6_10": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e6",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 10,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "julia_1e7_8": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e7",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "julia_1e7_10": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e7",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 10,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "julia_1e8_8": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "julia_1e8_10": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 10,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "werner_zen4_batched_1e5": {
+    "run_exp":1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.95_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,
+    "sample_factors": [0.001],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  }, 
+
+  "werner_zen4_batched_1e6": {
+    "run_exp":1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.95_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,
+    "sample_factors": [0.01],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  }, 
+
+  "werner_zen4_batched_1e7": {
+    "run_exp":1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.95_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,
+    "sample_factors": [0.1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  }, 
+
+  "werner_zen4_batched_1e8": {
+    "run_exp":1,
+    "rm_old_exp" : 1,
+    "single_plots" : 0,
+    "manual_cmp" : 0,
+
+    "state": "werner_0.95_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  }, 
+
+  "ghz": {
+    "run_exp": 0,
+    "rm_old_exp" : 0,    
+    "single_plots" : 1,
+    "manual_cmp" : 0,
+
+    "state": "ghz",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 120,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 32,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 300,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "cmp": {
+    "run_exp": 0,
+    "rm_old_exp" : 0,
+    "single_plots" : 1,
+
+    "state": "mm",
+    "versions": ["running", "batched"],
+    "mode": "bench",
+
+    "num_runs": 11,
+    "num_data_points": 60,
+    "sample_factors": [1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 6,
+    "order": 32,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": ["cmp.sh"]
+  },
+
+  "cmp_Vsize": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 1,
+
+    "state": "mm",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [0.03],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 7,
+    "order": 32,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1, 0],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": ["cmp.sh"]
+  },
+
+
+  "mm_test_transition": {
+    "run_exp": 0,
+    "rm_old_exp" : 0,    
+    "single_plots" : 1,
+
+    "state": "mm_16qb_8192",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [0.1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 14,
+    "order": 8,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 250,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "mm_test_giant_T": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 1,
+
+    "state": "mm_2345qb",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 5,
+    "order": 256,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "ghz_verify": {
+    "run_exp": 0,
+    "rm_old_exp" : 1,    
+    "single_plots" : 1,
+
+    "state": "ghz",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 1001,
+    "num_data_points": 0,    
+    "sample_factors": [0.23296],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "mm_border_case": {
+    "run_exp": 0,
+    "rm_old_exp" : 1,    
+    "single_plots" : 1,
+
+    "state": "mm_16qb_8192",
+    "versions": ["running"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [0.02],
+    "PT": 0,
+
+    "min_qb": 2,
+    "max_qb": 16,
+    "order": 16,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 200,
+
+    "data_in_dir": "/data/mgruber/shadows-cpp/experiments",
+    "hw": "9354P",
+    "plot_scripts": []
+  },
+
+  "julia_vsc_1e6_8": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e6",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 4,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },
+
+  "julia_vsc_1e6_10": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e6",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 10,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },
+
+  "julia_vsc_1e7_8": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e7",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },
+
+  "julia_vsc_1e7_10": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e7",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 10,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },
+
+  "julia_vsc_1e8_8": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 2,
+    "max_qb": 8,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  },
+
+  "julia_vsc_1e8_10": {
+    "run_exp": 1,
+    "rm_old_exp" : 1,    
+    "single_plots" : 0,
+    "run_julia" : 1,
+
+    "state": "werner_0.95_julia_1e8",
+    "versions": ["batched"],
+    "mode": "bench",
+
+    "num_runs": 1,
+    "num_data_points": 0,    
+    "sample_factors": [1],
+    "PT": 1,
+
+    "min_qb": 10,
+    "max_qb": 10,
+    "order": 34,
+    "tol": 1,
+    "CI_perc": 95,
+
+    "log2_num_threads": [-1],
+    "use_simds": [1],
+    "var_offset": 2500,
+
+    "data_in_dir": "/gpfs/data/fs73274/mgruber/shadows-cpp/experiments",
+    "hw": "7713",
+    "plot_scripts": []
+  }
+}

@@ -1,0 +1,9 @@
+name: shadows
+channels:
+  - conda-forge
+dependencies:
+  - cxx-compiler
+  - c-compiler
+  - openblas
+  - openmpi
+  - openmpi-mpicc    

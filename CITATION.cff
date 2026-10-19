@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: 'If you use this software, please cite the accompanying paper.'
+
+title: 'KrMM-shadows'
+authors:
+  - given-names: Matthias
+    family-names: Gruber
+  - given-names: Sabrina
+    family-names: Herbst
+  - given-names: Ivona
+    family-names: Brandić
+  - given-names: Vincenzo
+    family-names: De Maio
+
+url: 'https://github.com/matthias2911/KrMM-shadows.git'
+
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Matthias
+      family-names: Gruber
+    - given-names: Sabrina
+      family-names: Herbst
+    - given-names: Ivona
+      family-names: Brandić
+    - given-names: Vincenzo
+      family-names: De Maio
+  title: 'KrMM Recurrences: HPC-Enhanced Estimators for Nonlinear Classical Shadows'
+  year: 2026
+  url: 'TBD'
+  eprint: '0000.00000'
+  archive: arXiv

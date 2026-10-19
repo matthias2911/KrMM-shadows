@@ -1,0 +1,17 @@
+name: shadows
+channels:
+  - conda-forge
+dependencies:
+  - cmake>=3.20
+  - clang-tools
+  - clang
+  - pip
+  - julia
+  - python>=3.10
+  - zlib
+  - jq
+  - pip:
+    - numpy
+    - matplotlib
+    - pandas
+    - scipy

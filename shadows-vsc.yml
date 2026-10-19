@@ -1,0 +1,13 @@
+name: shadows-vsc
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - julia
+  - python>=3.10
+  - jq
+  - pip:
+    - numpy
+    - matplotlib
+    - pandas
+    - scipy

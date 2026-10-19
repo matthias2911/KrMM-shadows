@@ -1,0 +1,11 @@
+---
+BasedOnStyle: LLVM
+---
+Language: Cpp
+AllowShortFunctionsOnASingleLine: All
+DerivePointerAlignment: false 
+PointerAlignment: Left
+ColumnLimit:     120
+TabWidth:        2
+IndentWidth:     2
+...

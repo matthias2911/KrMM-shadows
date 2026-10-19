@@ -1,0 +1,14 @@
+CompileFlags:
+  CompilationDatabase: build/test/
+  Add:
+    - -Wno-sign-conversion
+  Remove:
+    - -forward-unknown-to-host-compiler
+    - --generate-code*
+    - -arch*
+    - --options-file*
+    - -G
+Diagnostics:
+  UnusedIncludes: None
+  ClangTidy:
+    Remove: [bugprone-integer-division]

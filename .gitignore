@@ -1,0 +1,84 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# log files
+*.log
+*.out
+*.err
+
+# images
+*.png
+
+# notes
+notes.txt
+
+# py
+.ipynb_checkpoints/
+__pycache__/
+
+# vscode
+.vscode/
+*.code-workspace
+
+# build dir
+build/
+
+# notebooks dir
+notebooks/
+
+# temp dir
+.tmp/
+
+# slurm out dir
+slurm_out/
+
+# data dir
+data/
+
+# results dirs
+*results/
+
+# personal notes
+*notes.txt
+
+# nohup helper script
+*nohup_multi_experiments.sh
+
+# 
+*.npz
+
+# 
+frequencies
+
+# 
+*.pdf
