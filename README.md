@@ -1,6 +1,6 @@
 # KrMM-shadows
 
-This is the repository accompanying the publication "**KrMM Recurrences: HPC-Enhanced Estimators for Nonlinear Classical Shadows**".
+This is the repository accompanying the publication "**KrMM Recurrences: HPC-Enhanced Estimators for Nonlinear Classical Shadows**" ([arXiv](https://doi.org/10.48550/arXiv.2610.26472)).
 
 ## Project Structure
 
@@ -23,7 +23,7 @@ The experimental data and the plotting scripts used to obtain all figures in the
 
 ## Citation
 
-If you use this repository in your work, please cite our publication `DOI TBD` (see also `CITATION.cff`).
+If you use this repository in your work, please cite our [arXiv paper](https://doi.org/10.48550/arXiv.2610.26472) (see also `CITATION.cff`).
 
 ## Quick Start: Small Test Experiment
 
